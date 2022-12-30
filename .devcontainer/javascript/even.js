@@ -1,3 +1,5 @@
+check even or odd 
+
 const num = 21;
 const number = 22;
 
