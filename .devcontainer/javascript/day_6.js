@@ -5,36 +5,25 @@ let accountPassword = "3210";
 let accountCity = "Raipur";
 let accountState = "CG";
 
-console.log accountId;
-console.log accountEmail;
-console.log accountPassword;
-console.log accountCity;
-console.log accountState;
+console.log (accountId);
+console.log (accountEmail);
+console.log (accountPassword);
+console.log (accountCity);
+console.log (accountState);
 
-let accountEmail = "pallavi@gmail.accountEmail";
-let accountPassword = "0123";
-let accountCity = "Balod";
-let accountState = "CG";
+ accountEmail = "pallavi@gmail.accountEmail";
+ accountPassword = "0123";
+ accountCity = "Balod";
+ accountState = "CG";
 
 
-console.log "accountEmail";
-console.log "accountPassword";
-console.log "accountCity";
-console.log "accountState";
+console.log (accountEmail);
+console.log (accountPassword);
+console.log (accountCity);
+console.log (accountState);
  
 
 
-
-
-// add two num enter by user
-
-const num1 = parseInt(prompt('Enter the first number '));
-const num2 = parseInt(prompt('Enter the second number '));
-
-//add two numbers
-const sum = num1 + num2;
-
-console.log(`The sum of ${num1} and ${num2} is ${sum}`);
 
 
 
@@ -53,12 +42,10 @@ else
 // calculate the area of a triangle
 //  Area When Base and Height is Known
 
-const baseValue = prompt('Enter the base of a triangle: ');
-const heightValue = prompt('Enter the height of a triangle: ');
+const baseValue = 21;
+const heightValue = 12;
 
 // calculate the area
 const areaValue = (baseValue * heightValue) / 2;
 
-console.log(
-  `The area of the triangle is ${areaValue}`
-);
+console.log(`The area of the triangle is ${areaValue}`);
