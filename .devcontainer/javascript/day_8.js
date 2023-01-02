@@ -1,3 +1,5 @@
+// check even and odd number
+
 const v = 15;
 if(v % 2 == 0)
 {console.log (v + "is a even number");}
