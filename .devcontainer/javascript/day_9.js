@@ -1,3 +1,5 @@
+// square and squareroot of number
+
 const number = 25;
 
 const squareroot = Math.sqrt(number);
